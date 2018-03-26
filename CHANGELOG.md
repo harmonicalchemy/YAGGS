@@ -1,1 +1,1 @@
-/rw/usrlocal/grav-base/grav/CHANGELOG.md
+/usr/local/grav-base/grav/CHANGELOG.md

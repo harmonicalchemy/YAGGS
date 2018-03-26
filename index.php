@@ -1,1 +1,1 @@
-/rw/usrlocal/grav-base/grav/index.php
+/usr/local/grav-base/grav/index.php

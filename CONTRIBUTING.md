@@ -1,1 +1,1 @@
-/rw/usrlocal/grav-base/grav/CONTRIBUTING.md
+/usr/local/grav-base/grav/CONTRIBUTING.md

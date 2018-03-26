@@ -1,1 +1,1 @@
-/rw/usrlocal/grav-base/grav/README.md
+/usr/local/grav-base/grav/README.md
