@@ -1,0 +1,13 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    id: headroom-7247
+    type: headroom
+    title: Headroom.js
+    attributes:
+      enabled: '1'
+      cssselector: '#g-navigation'
+      offset: '618'
+      animation: swing
+      mobile: disable
