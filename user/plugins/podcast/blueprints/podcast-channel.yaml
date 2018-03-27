@@ -1,0 +1,116 @@
+title: Podcast
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        content:
+          type: tab
+          ordering@: 0
+          title: Podcast Page Content
+          fields:
+            uploads:
+              unset@: true
+            header.title:
+              type: text
+              label: Page Title
+
+            header.feed.rss:
+              type: hidden
+              default: 'true'
+            header.feed.items:
+              type: hidden
+              default: '@self.descendants'
+
+        channelMetaTab:
+          type: tab
+          ordering@: 1
+          title: Channel Meta
+          fields:
+            helptext:
+              type: spacer
+              title:
+              text: Metadata related to the podcast's channel section.
+              underline: true
+            uploads:
+              unset@: true
+            header.podcast.title:
+              type: text
+              label: Podcast Title
+            header.podcast.itunes.subtitle:
+              type: text
+              label: iTunes Subtitle
+              help: 'Example: "A show about everything..."'
+            header.podcast.description:
+              type: markdown
+              label: Channel Description
+              ordering@: 0
+            header.podcast.link:
+              type: text
+              label: Channel URL
+              default: 'https://www.example.com'
+            header.podcast.channelLanguage:
+              type: select
+              label: Channel Language
+              default: 'en'
+              data-options@: '\Grav\Plugin\PodcastPlugin::getLanguageOptions'
+            header.podcast.copyright:
+              type: text
+              label: Copyright
+              default: 2017 Example.com
+
+        itunesMetaTab:
+          type: tab
+          ordering@: 2
+          title: iTunes Meta
+          fields:
+            helptext:
+              type: spacer
+              title:
+              text: Metadata related to the podcast's itunes section.
+              underline: true
+            header.podcast.itunes.author:
+              type: text
+              label: Author
+              help: 'Example: "John Doe"'
+            header.podcast.itunes.owner.name:
+              type: text
+              label: Owner Name
+              help: 'Example: "John Doe"'
+            header.podcast.itunes.owner.email:
+              type: email
+              label: Owner Email
+              help: 'Example: "jdoe@example.com"'
+            header.podcast.itunes.image:
+              type: file
+              label: Channel Image
+              destination: 'self@'
+              multiple: false
+              fileszie: 5
+              accept:
+                - image/*
+            header.podcast.itunes.category:
+              type: select
+              size: long
+              classes: fancy
+              label: Category
+              data-options@: '\Grav\Plugin\PodcastPlugin::getCategoryOptions'
+            header.podcast.itunes.subcategory:
+              type: select
+              label: Sub-Category
+              data-options@: '\Grav\Plugin\PodcastPlugin::getSubCategoryOptions'
+
+            header.podcast.itunes.explicit:
+              type: toggle
+              label: Explicit Content
+              highlight: 0
+              default: no
+              help: Does this podcast contain content that might be inappropriate for children?
+              options:
+                  yes: Yes
+                  no: No

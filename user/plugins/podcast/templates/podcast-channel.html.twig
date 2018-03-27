@@ -1,0 +1,39 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %}
+    {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %}
+    <div class="podcast-channel-header">
+        <div class = "podcast-channel-image">
+            {% set channel_image = ((header.podcast.itunes.image)|first) %}
+            {{ page.media[channel_image.name].resize(200, 200).html() }}
+
+        </div>
+        <div class="channel-meta">
+            <h1>{{ header.title }}</h1>
+            <p class = "owner">by {{ header.podcast.itunes.owner.name}}</p>
+            <p class = "description">{{page.header.podcast.description}}</p>
+        </div>
+        <div class="channel-links">
+            <a href="{{base_url_simple}}{{page.route}}.rss"><i class="fa fa-rss" aria-hidden="true"></i> {{page.title}} Podcast</a>
+
+        </div>
+
+    </div>
+
+    {% if (page.content) %}
+    <div class="channel-content">
+        <p>
+            {{page.content}}
+        </p>
+    </div>
+
+    {% endif %}
+
+    {% include 'partials/podcast_episodes_list.html.twig' %}
+    {% include 'partials/podcast_series_list.html.twig' %}
+    <div class="clearfix"></div>
+
+
+{% endblock %}
+

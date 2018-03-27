@@ -1,0 +1,40 @@
+<div id = "episodes">
+    <ul>
+                    
+        {% for episode in episodes %}
+            <li>
+                <div class="episode-image">
+                    {% if ((episode.header.podcast.itunes.image)|first) %}
+                        {{ page.find(episode.route).media[ (((episode.header.podcast.itunes.image)|first).name) ].cropResize(200, 200).html}}
+                    {% else %}
+                        <img src="{{ url("plugin://podcast/assets/images/default.jpg") }}" />
+                    {% endif %}
+                </div>
+                <a href ="{{ episode.url }}">
+                <h2>{{ episode.title }}
+                    {% if (episode.header.podcast.audio.meta.duration) %}
+                        <small>( {{ episode.header.podcast.audio.meta.duration }} )</small>
+                    {% else %}
+                        <small>( No Audio )</small>
+                    {% endif %}
+                </h2>
+                </a>
+                <p class = "episode-date">
+                    {{ (episode.modified)|date('Y-m-d')|nicetime(false) }}
+                </p>
+                <p pass = "episode-description">
+                    {% if episode.summary %}
+                        {{ (episode.summary)|truncate(120) }}
+                    {% else %}
+                        No summary available.
+                    {% endif %}
+                </p>
+                {% if episode.header.podcast.audio.meta %}
+                    <p class = "podcast-episode-audio">
+                        <audio controls="1" alt="episode.title"><source src="{{episode.header.podcast.audio.meta.guid}}">Your browser does not support the audio tag.</audio>
+                    </p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
