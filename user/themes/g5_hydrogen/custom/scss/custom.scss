@@ -1,0 +1,37 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  .../example.com/public/user/themes/g5_Hydrogen/custom/scss/custom/scss
+//  Custom Style Definitions for this G5 Hydrogen Themed Web Site...
+//
+//  Created:  2018-003-27
+//  Author:   Alisha Awen siren1@disroot.org
+//
+//  Put all your custom CSS or SCSS rules in here. (the parser is smart ;-)
+//  Rules set here will override any rules set by the main theme code while
+//  keeping everything else true to the main theme's CSS rules.  The rules you
+//  put in here will persisit across theme updates...
+//
+//  Note: Never alter the main theme's style sheets unless you are the
+//        maintainer of the main theme's code base!
+//        If you do that, you will loose it all after the theme updates!
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// Adjust Top Nav Bar (menu) height:
+#g-navigation {
+	height: 31px;
+}
+
+#g-navigation.g-fixed-active {
+	height: 31px;
+}
+
+// Adjust Nav Bar Menu Padding to fit new Menu Bar Height:
+.g-main-nav .g-toplevel > li > .g-menu-item-container {
+	padding: .2rem 0.938rem;
+}
+
+// Adjust Nav Bar Dropdown Menu Padding to fit new Menu Bar Height:
+.g-main-nav .g-sublevel > li > .g-menu-item-container {
+	padding: 0.2rem 0.938rem;
+}
+
+

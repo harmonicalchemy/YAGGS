@@ -1,0 +1,36 @@
+settings:
+  title: Mainmenu
+ordering:
+  home: ''
+  styles: ''
+  blog:
+    about: ''
+    watsnews: ''
+    afunnything: ''
+items:
+  home:
+    enabled: true
+    anchor_class: ''
+  styles:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  blog:
+    enabled: true
+    anchor_class: ''
+  blog/about:
+    enabled: true
+    anchor_class: ''
+  blog/watsnews:
+    type: link
+    title: 'Wat? News?'
+    link: /blog/WatsNews
+    enabled: true
+    anchor_class: ''
+  blog/afunnything:
+    type: link
+    title: 'A Funny Thing Happened...'
+    link: /blog/aFunnyThing
+    enabled: true
+    anchor_class: ''

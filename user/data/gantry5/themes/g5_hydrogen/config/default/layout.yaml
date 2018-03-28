@@ -52,3 +52,9 @@ content:
   position-footer:
     attributes:
       key: footer
+  copyright-4592:
+    attributes:
+      date:
+        start: '2016'
+        end: now
+      owner: 'Alisha Awen - Harmonic Alchemy Productions'

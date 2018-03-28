@@ -1,10 +1,12 @@
 ---
-title: Typography
+title: Styles
 ---
 
-! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
+# Custom Styles Page:
 
-The [Quark theme](https://github.com/getgrav/grav-theme-quark) is the new default theme for Grav built with [Spectre.css](https://picturepan2.github.io/spectre/) the lightweight, responsive and modern CSS framework. Spectre provides  basic styles for typography, elements, and a responsive layout system that utilizes best practices and consistent language design.
+!! This Grav Skeleton uses a customized version of the [Gantry 5 Hydrogen theme](https://github.com/gantry/gantry5/tree/develop/themes/hydrogen).
+
+! More details about the Gantry 5 Hydrogen Theme's core template files can be found in the [Official Gantry 5 Documentation](http://docs.gantry.org/gantry5/advanced/customizing-theme-files#template-files)
 
 ### Headings
 
