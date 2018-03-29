@@ -4,6 +4,8 @@ title: Styles
 
 # Custom Styles Page:
 
+### Photo Credit: [Woodworking Tools - By: Alexander Andrews - Unsplash.com](https://unsplash.com/photos/c91LS-JK7cw)
+
 !! This Grav Skeleton uses a customized version of the [Gantry 5 Hydrogen theme](https://github.com/gantry/gantry5/tree/develop/themes/hydrogen).
 
 ! More details about the Gantry 5 Hydrogen Theme's core template files can be found in the [Official Gantry 5 Documentation](http://docs.gantry.org/gantry5/advanced/customizing-theme-files#template-files)

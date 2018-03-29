@@ -25,10 +25,12 @@ summary:
     size: 300
     delimiter: '==='
 continue_link: true
-header_image_credit: 'Thomas Tucker'
-header_image_creditlink: 'https://unsplash.com/photos/-HPhkZcJQNk'
-header_image_alt_text: 'northern light sky, crashed plane, Iceland'
+header_image_credit: 'Pete Nowicki'
+header_image_creditlink: 'https://unsplash.com/photos/_87lZuOyg64'
+header_image_alt_text: 'Raindrop-Ripples-on-Pond - Pete Nowicki - unsplash.com'
 ---
+
+# A Funny Thing Happened On My Way to the Blog
 
 Lorem ipsum fringilla cras tempus sagittis pretium tristique id pulvinar habitant varius interdum vel integer fusce aptent id laoreet condimentum eget urna lectus, congue metus placerat auctor litora pharetra facilisis ultricies convallis, leo bibendum hac tempor bibendum litora phasellus rutrum fermentum.!
 

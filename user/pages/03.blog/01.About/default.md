@@ -25,12 +25,14 @@ summary:
     size: 300
     delimiter: '==='
 continue_link: true
-header_image_credit: 'Thomas Tucker'
-header_image_creditlink: 'https://unsplash.com/photos/-HPhkZcJQNk'
-header_image_alt_text: 'northern light sky, crashed plane, Iceland'
+header_image_credit: 'Johannes Plenio'
+header_image_creditlink: 'https://unsplash.com/photos/NVMF-cAHxCg'
+header_image_alt_text: 'Mystical Forrest Path - credit: Johannes Plenio'
 ---
 
-Lorem ipsum fringilla cras tempus sagittis pretium tristique id pulvinar habitant varius interdum vel integer fusce aptent id laoreet condimentum eget urna lectus, congue metus placerat auctor litora pharetra facilisis ultricies convallis, leo bibendum hac tempor bibendum litora phasellus rutrum fermentum.!
+# About Us...
+
+The photo above is a shamlessly cropped version by: [Johannes Plenio - Unsplash](https://unsplash.com/photos/NVMF-cAHxCg) I call it "Mystical Forrest Path".  I had to crop the original aspect ratio in an attempt to capture the mood adapted to a webpage layout/presentation.
 
 ===
 

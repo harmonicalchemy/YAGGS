@@ -40,3 +40,5 @@ Creating a new page is a simple affair in **Grav**.  Simply follow these simple 
 4. That is it! Reload your browser to see your new page in the menu.
 
 ! NOTE: Your page will automatically show up in the Menu after the "blog" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
+
+#### Banner Image Credit:[Natures fireworks -  by: Alexander Andrews](https://unsplash.com/photos/eNoeWZkO7Zc) Published January 19, 2018 Unsplash.com
