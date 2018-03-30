@@ -1,0 +1,91 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: 2_column_-_right
+  timestamp: 1522083177
+layout:
+  /header/:
+    -
+      - logo-3323
+  /navigation/:
+    -
+      - menu-4448
+  /container-main/:
+    -
+      -
+        'main 80':
+          -
+            - position-breadcrumbs
+          -
+            - system-messages-2751
+          -
+            - system-content-3633
+      -
+        'sidebar 20':
+          -
+            - position-sidebar
+          -
+            - social-9424
+          -
+            - feed-7084
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-3968 30'
+      - 'spacer-7570 5'
+      - 'branding-1178 34'
+      - 'branding-4665 31'
+  offcanvas:
+    -
+      - mobile-menu-2449
+structure:
+  header:
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  container-main:
+    attributes:
+      boxed: '0'
+      class: ''
+      extra: {  }
+  footer:
+    attributes:
+      boxed: '0'
+      class: ''
+      background: ''
+content:
+  logo-3323:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Alexander-Andrews-natures-fireworks.jpg'
+      class: gantry-logo
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  position-sidebar:
+    attributes:
+      key: sidebar
+  feed-7084:
+    title: 'Feed Buttons'
+  position-footer:
+    attributes:
+      key: footer
+  copyright-3968:
+    attributes:
+      date:
+        start: '2016'
+      owner: 'Alisha Awen, siren1@HarmonicAlchemy.Productions, licenced under GPL3'
+  branding-1178:
+    attributes:
+      content: "Designed by: <a href=\"https://HarmonicAlchemy.productions\" title=\"Harmonic Alchemy Productions\" class=\"g-powered-by\">Harmonic Alchemy Productions</a>\n<br/>\nPublished by: <a href=\"https://MarketingContent.media\" title=\"Marketing Content Media\" class=\"g-powered-by\">Marketing Content Media</a>"

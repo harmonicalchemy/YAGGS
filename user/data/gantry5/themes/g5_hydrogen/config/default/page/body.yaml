@@ -3,6 +3,6 @@ attribs:
   class: gantry
   extra: {  }
 layout:
-  sections: '0'
+  sections: '2'
 body_top: ''
 body_bottom: ''

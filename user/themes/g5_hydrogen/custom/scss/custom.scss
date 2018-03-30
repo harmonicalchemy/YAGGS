@@ -15,23 +15,45 @@
 //        If you do that, you will loose it all after the theme updates!
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+// Change default Gantry5 Logo width to full page:
+.gantry-logo img {
+	width: 100%;
+}
+
+// Adjust Page dimensions/layout better:
+.g-content {
+	margin: 0.2rem;
+	/* padding: 0.3rem; */
+}
+
+#g-main {
+    padding: 0;
+}
+
 // Adjust Top Nav Bar (menu) height:
 #g-navigation {
-	height: 31px;
+    height: 31px;
+}
+
+#g-navigation .g-main-nav {
+    heitht: 31px;
+    margin: auto;
 }
 
 #g-navigation.g-fixed-active {
-	height: 31px;
+    height: 31px;
+}
+
+.g-main-nav .g-toplevel > li {
+    height: 31px;
 }
 
 // Adjust Nav Bar Menu Padding to fit new Menu Bar Height:
 .g-main-nav .g-toplevel > li > .g-menu-item-container {
-	padding: .2rem 0.938rem;
+	padding: 0.2rem 0.9rem;
 }
 
 // Adjust Nav Bar Dropdown Menu Padding to fit new Menu Bar Height:
 .g-main-nav .g-sublevel > li > .g-menu-item-container {
-	padding: 0.2rem 0.938rem;
+    padding: 0.2rem 0.9rem;
 }
-
-

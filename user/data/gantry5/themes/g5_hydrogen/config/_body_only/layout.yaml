@@ -12,4 +12,6 @@ layout:
 structure:
   main:
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      background: ''

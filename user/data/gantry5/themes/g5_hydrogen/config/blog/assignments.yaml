@@ -1,0 +1,7 @@
+page:
+  -
+    blog: true
+language: {  }
+type:
+  -
+    blog_list: true

@@ -1,0 +1,45 @@
+name: hap-basic-2col
+timestamp: 1522366826
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: 2_column_-_right
+  timestamp: 1522083177
+positions:
+  breadcrumbs: Breadcrumbs
+  sidebar: Sidebar
+  footer: Footer
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-3323: 'Logo / Image'
+  menu:
+    menu-4448: Menu
+  position:
+    position-breadcrumbs: Breadcrumbs
+    position-sidebar: Sidebar
+    position-footer: Footer
+  messages:
+    system-messages-2751: 'System Messages'
+  content:
+    system-content-3633: 'Page Content'
+  social:
+    social-9424: Social
+  feed:
+    feed-7084: 'Feed Buttons'
+  copyright:
+    copyright-3968: Copyright
+  spacer:
+    spacer-7570: Spacer
+  branding:
+    branding-1178: Branding
+    branding-4665: Branding
+  mobile-menu:
+    mobile-menu-2449: Mobile-menu
+inherit: {  }

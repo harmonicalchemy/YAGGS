@@ -6,8 +6,7 @@ preset:
 layout:
   /header/:
     -
-      - 'logo-9552 30'
-      - 'position-header 70'
+      - logo-4361
   /navigation/:
     -
       - menu-2151
@@ -22,9 +21,11 @@ layout:
     -
       - position-footer
     -
-      - 'copyright-4592 40'
-      - 'spacer-2850 30'
-      - 'branding-6202 30'
+      - 'copyright-5527 30'
+      - 'spacer-spacer-4003 5'
+      - 'branding-2774 30'
+      - 'spacer-spacer-8766 5'
+      - 'branding-5758 30'
   offcanvas:
     -
       - mobile-menu-5547
@@ -36,25 +37,38 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      background: ''
   main:
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      background: ''
   footer:
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      background: ''
 content:
-  position-header:
+  logo-4361:
+    title: 'Logo / Image'
     attributes:
-      key: header
+      enabled: 0
+      image: 'gantry-media://Alexander-Andrews-natures-fireworks.jpg'
   position-breadcrumbs:
     attributes:
       key: breadcrumbs
   position-footer:
     attributes:
       key: footer
-  copyright-4592:
+  copyright-5527:
     attributes:
       date:
         start: '2016'
-        end: now
-      owner: 'Alisha Awen - Harmonic Alchemy Productions'
+      owner: 'Alisha Awen, siren1@HarmonicAlchemy.Productions, licenced under GPL3'
+  branding-2774:
+    attributes:
+      content: 'Published By: <a href="https://MarketingContent.media/" title="Marketing Content Media" class="g-powered-by">Marketing Content Media</a>'
+  branding-5758:
+    attributes:
+      content: 'Powered by: <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
