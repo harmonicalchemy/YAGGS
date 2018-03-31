@@ -68,7 +68,7 @@ content:
   logo-3323:
     title: 'Logo / Image'
     attributes:
-      image: 'gantry-media://Alexander-Andrews-natures-fireworks.jpg'
+      image: 'gantry-media://old-typewriter-carrage-narrow.jpg'
       class: gantry-logo
   position-breadcrumbs:
     attributes:

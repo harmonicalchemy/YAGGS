@@ -20,3 +20,4 @@ content:
     url_taxonomy_filters: true
 ---
 
+!!! Banner Photo Credit: [Rafaela Biazi - unsplash.com](https://unsplash.com/photos/2N1lJCLrCj0)

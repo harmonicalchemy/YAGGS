@@ -1,5 +1,5 @@
 name: default
-timestamp: 1522359597
+timestamp: 1522479404
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -29,8 +29,8 @@ particles:
   copyright:
     copyright-5527: Copyright
   spacer:
-    spacer-spacer-4003: Spacer
-    spacer-spacer-8766: Spacer
+    spacer-4003: Spacer
+    spacer-8766: Spacer
   branding:
     branding-2774: Branding
     branding-5758: Branding

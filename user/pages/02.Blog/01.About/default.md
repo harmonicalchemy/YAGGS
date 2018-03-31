@@ -32,7 +32,8 @@ header_image_alt_text: 'Mystical Forrest Path - credit: Johannes Plenio'
 
 ![](johannes-plenio-mystical-forrest-path.jpg)
 # About Us...
-The photo above is a shamlessly cropped version by: [Johannes Plenio - Unsplash](https://unsplash.com/photos/NVMF-cAHxCg) I call it "Mystical Forrest Path".  I had to crop the original aspect ratio in an attempt to capture the mood adapted to a webpage layout/presentation.
+
+!!! The photo above is a shamlessly cropped version by: [Johannes Plenio - Unsplash](https://unsplash.com/photos/NVMF-cAHxCg) I call it "Mystical Forrest Path".  I had to crop the original aspect ratio in an attempt to capture the mood adapted to a webpage layout/presentation.
 
 ===
 

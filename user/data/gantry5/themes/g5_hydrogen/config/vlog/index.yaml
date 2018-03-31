@@ -1,5 +1,5 @@
-name: video-blog
-timestamp: 1522385809
+name: vlog
+timestamp: 1522479404
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/2-col-right.png'
