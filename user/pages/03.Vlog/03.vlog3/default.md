@@ -1,22 +1,23 @@
 ---
-title: 'Video1'
+title: 'Vlog-03'
 published: true
 date: '12:31 03/27/2018'
 taxonomy:
     category:
         - video-blog
     tag:
-        - blogs
+        - vlogs
         - templates
         - videos
-        - templates
         - examples
         - YouTube
         - Vimeo
         - Flickr
+        - classic-movies
+        - Anna-Christie
 
-menu: Video1
-slug: video1
+menu: Vlog-03
+slug: vlog3
 image:
     summary:
         enabled: true
@@ -32,17 +33,18 @@ header_image_credit: 'none'
 header_image_creditlink: 'https://HarmonicAlchemy.Productions'
 header_image_alt_text: 'will be added when the image is uploaded'
 ---
+
 [plugin:youtube](https://youtu.be/kzgMHP4cu8o)
 
-#### _This is example YouTube Video 1_
+#### _This is example Vlog 3 presents a YouTube clip of the classic show: Anna Christie by Eugene O'Neal_
 
-Visitors are able to watch your videos right in place on this vlog list page, and can choose to expand them to full screen right from this page as well...  Edit this page in a text editor: `/user/pages/03.Vlog/01.video1/default.md` and make it your own!  Change the YouTube link under the first three dashes: `---` you find (under the page's front matter at the top).  Add details about your video under the `read more` section (everything below the three equil signs `===`)...  **_"Put that in your pipe and smoke it!"_** ;-)
+Visitors are able to watch your videos right in place on this vlog list page, and can choose to expand them to full screen right from this page as well...  Edit this page in a text editor: `/user/pages/03.Vlog/03.vlog3/default.md` and make it your own!  Change the YouTube link under the first three dashes: `---` you find _(under the page's front matter at the top)_.  Add details about your video under the `read more` section _(everything below the three equal signs `===`)_...  **_"Put that in your pipe and smoke it!"_** ;-)
 
 ===
 
 ## Example Heading:
 
-!!! **Example color coded BlockQuote:**  This is the full page "read more" part of your video post where you can add details and interesting info or back stories about your video presented in this post...
+!!! **Example colour coded Block-Quote:**  This is the full page "read more" part of your video post where you can add details and interesting info or back stories about your video presented in this post...
 
 ## Lorem Ipsum Fringilla
 
