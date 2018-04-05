@@ -21,11 +21,9 @@ layout:
     -
       - position-footer
     -
-      - 'copyright-5527 30'
-      - 'spacer-spacer-4003 5'
-      - 'branding-2774 30'
-      - 'spacer-spacer-8766 5'
-      - 'branding-5758 30'
+      - 'copyright-5527 34'
+      - 'branding-2774 38'
+      - 'branding-5758 28'
   offcanvas:
     -
       - mobile-menu-5547
@@ -65,10 +63,10 @@ content:
     attributes:
       date:
         start: '2016'
-      owner: 'Alisha Awen, siren1@HarmonicAlchemy.Productions, licenced under GPL3'
+      owner: 'Alisha Awen, siren1@disroot.org, licenced under GPL3'
   branding-2774:
     attributes:
-      content: 'Published By: <a href="https://MarketingContent.media/" title="Marketing Content Media" class="g-powered-by">Marketing Content Media</a>'
+      content: "Designed By: <a href=\"https://harmonicalchemy.productions/\" title=\"Harmonic Alchemy Productions\" class=\"g-powered-by\">Harmonic Alchemy Productions</a>\n<br/>\nPublished By: <a href=\"https://MarketingContent.media/\" title=\"Marketing Content Media\" class=\"g-powered-by\">Marketing Content Media</a>"
   branding-5758:
     attributes:
       content: 'Powered by: <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'

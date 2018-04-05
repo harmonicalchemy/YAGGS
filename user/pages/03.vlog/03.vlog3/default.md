@@ -1,24 +1,23 @@
 ---
-title: 'Vlog-01'
+title: Vlog-03
 published: true
 date: '12:31 03/27/2018'
 taxonomy:
     category:
         - video-blog
     tag:
-        - vlogs
-        - templates
         - videos
-        - examples
         - YouTube
         - Vimeo
+        - templates
+        - examples
+        - vlogs
         - Flickr
         - octopus
         - intelligence
         - aliens
-
-menu: Vlog-01
-slug: vlog1
+menu: Vlog-03
+slug: vlog3
 image:
     summary:
         enabled: true
@@ -30,16 +29,16 @@ summary:
     size: 300
     delimiter: '==='
 continue_link: true
-header_image_credit: 'none'
+header_image_credit: none
 header_image_creditlink: 'https://HarmonicAlchemy.Productions'
 header_image_alt_text: 'will be added when the image is uploaded'
 ---
 
 [plugin:youtube](https://youtu.be/ZU_2CzHnbdg)
 
-#### _This is example Vlog 1 presents a YouTube clip about the wonders of octopuses_
+#### _This is example Vlog 3 presents a YouTube clip about the wonders of octopuses_
 
-Visitors are able to watch your videos right in place on this vlog list page, and can choose to expand them to full screen right from this page as well...  Edit this page in a text editor: `/user/pages/03.Vlog/01.vlog1/default.md` and make it your own!  Change the YouTube link under the first three dashes: `---` you find (under the page's front matter at the top).  Add details about your video under the `read more` section _(everything below the three equal signs `===`)_...  **_The octopus is my favourite animal. That makes me a good candidate for first contact when the real aliens decide to finally disclose their presence!_** ;-)
+Visitors are able to watch your videos right in place on this vlog list page, and can choose to expand them to full screen right from this page as well...  Edit this page in a text editor: `/user/pages/03.Vlog/01.vlog1/default.md` and make it your own!  Change the YouTube link under the first three dashes: `---` you find _(under the page's front matter at the top)_.  Add details about your video under the `read more` section _(everything below the three equal signs `===`)_...  **_The octopus is my favourite animal. That makes me a good candidate for first contact when the real aliens decide to finally disclose their presence!_** ;-)
 
 ===
 

@@ -21,13 +21,13 @@ home:
 pages:
   theme: g5_hydrogen
   order:
-    by: default
-    dir: asc
+    by: folder
+    dir: desc
   list:
     count: 20
   dateformat:
     short: 'jS M Y'
-    long: 'F jS \a\t g:ia'
+    long: 'D, d M Y G:i:s'
   publish_dates: true
   process:
     markdown: true

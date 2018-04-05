@@ -1,7 +1,7 @@
 ---
 title: 'Wat? News? Ha!'
 published: true
-date: '12:31 03/27/2018'
+date: '12:31 04/01/2018'
 taxonomy:
     category:
         - blog
@@ -13,7 +13,7 @@ taxonomy:
         - examples
         - news
 menu: 'Wat? News?'
-slug: WatsNews
+slug: wat-news
 image:
     summary:
         enabled: false
@@ -33,8 +33,10 @@ header_image_alt_text: 'Mountain Thunderstorm - James Plenio - unsplash.com'
 ![](johannes-plenio-mountain-thunderstorm-296374-unsplash.jpg)
 ! OK you asked for some news? Here you go... **_(evil grin)_**
 
+!! This just in April 01, 2018:
+
 ## Strange Anomalous Events shortly after Thunderstorm at Mountain Resort.
-Residents of a small mountain resort located near Mystery Lake Montana have been experiencing strange anomalous events that first began appearing shortly after a strange out of season thunderstorm occurred two weeks ago.
+Residents of a small mountain resort located near Mystery Lake Montana have been experiencing strange anomalous events that first began appearing shortly after a strange out of season thunderstorm occurred two weeks ago in March.
 
 ===
 

@@ -7,38 +7,19 @@ layout:
   /header/:
     -
       - logo-3323
-  /navigation/:
-    -
-      - menu-4448
+  navigation: {  }
   /container-main/:
     -
       -
-        'main 80':
-          -
-            - position-breadcrumbs
-          -
-            - system-messages-2751
-          -
-            - system-content-3633
+        'main 80': {  }
       -
         'sidebar 20':
-          -
-            - position-sidebar
           -
             - social-9424
           -
             - feed-7084
-  /footer/:
-    -
-      - position-footer
-    -
-      - 'copyright-3968 30'
-      - 'spacer-7570 5'
-      - 'branding-1178 34'
-      - 'branding-4665 31'
-  offcanvas:
-    -
-      - mobile-menu-2449
+  footer: {  }
+  offcanvas: {  }
 structure:
   header:
     attributes:
@@ -47,45 +28,67 @@ structure:
       background: ''
   navigation:
     type: section
-    attributes:
-      boxed: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  main:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
   sidebar:
     type: section
     subtype: aside
+    attributes:
+      class: ''
+      background: ''
     block:
-      fixed: 1
+      fixed: '1'
   container-main:
     attributes:
       boxed: '0'
       class: ''
       extra: {  }
   footer:
-    attributes:
-      boxed: '0'
-      class: ''
-      background: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
 content:
   logo-3323:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://Alexander-Andrews-natures-fireworks.jpg'
+      link: '0'
       class: gantry-logo
-  position-breadcrumbs:
+  social-9424:
     attributes:
-      key: breadcrumbs
-  position-sidebar:
-    attributes:
-      key: sidebar
+      items:
+        -
+          icon: 'fa fa-twitter'
+          text: Twitter
+          link: ''
+          name: Twitter
+        -
+          icon: 'fa fa-facebook-official'
+          text: Facebook
+          link: ''
+          name: Facebook
+        -
+          icon: 'fa fa-pinterest'
+          text: Pinterest
+          link: ''
+          name: Pinterest
   feed-7084:
     title: 'Feed Buttons'
-  position-footer:
-    attributes:
-      key: footer
-  copyright-3968:
-    attributes:
-      date:
-        start: '2016'
-      owner: 'Alisha Awen, siren1@HarmonicAlchemy.Productions, licenced under GPL3'
-  branding-1178:
-    attributes:
-      content: "Designed by: <a href=\"https://HarmonicAlchemy.productions\" title=\"Harmonic Alchemy Productions\" class=\"g-powered-by\">Harmonic Alchemy Productions</a>\n<br/>\nPublished by: <a href=\"https://MarketingContent.media\" title=\"Marketing Content Media\" class=\"g-powered-by\">Marketing Content Media</a>"

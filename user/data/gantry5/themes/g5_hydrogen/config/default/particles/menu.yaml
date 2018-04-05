@@ -1,6 +1,6 @@
 enabled: '1'
-menu: ''
-base: /
+menu: mainmenu
+base: home
 startLevel: '1'
 maxLevels: '0'
 renderTitles: '0'

@@ -1,5 +1,5 @@
 name: blog
-timestamp: 1522483117
+timestamp: 1522913590
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/2-col-right.png'
@@ -7,7 +7,6 @@ preset:
   timestamp: 1522083177
 positions:
   breadcrumbs: Breadcrumbs
-  sidebar: Sidebar
   footer: Footer
 sections:
   header: Header
@@ -20,26 +19,41 @@ particles:
   logo:
     logo-3323: 'Logo / Image'
   menu:
-    menu-4448: Menu
+    menu-1163: Menu
   position:
-    position-breadcrumbs: Breadcrumbs
-    position-sidebar: Sidebar
-    position-footer: Footer
+    position-position-3943: Breadcrumbs
+    position-position-6950: Footer
   messages:
-    system-messages-2751: 'System Messages'
+    system-messages-1182: 'System Messages'
   content:
-    system-content-3633: 'Page Content'
+    system-content-9336: 'Page Content'
   social:
-    social-9424: Social
+    social-3168: Social
   feed:
-    feed-7084: 'Feed Buttons'
+    feed-8885: 'Feed Buttons'
   copyright:
-    copyright-3968: Copyright
-  spacer:
-    spacer-7570: Spacer
+    copyright-7695: Copyright
   branding:
-    branding-1178: Branding
-    branding-4665: Branding
+    branding-3344: Branding
+    branding-6101: Branding
   mobile-menu:
-    mobile-menu-2449: Mobile-menu
-inherit: {  }
+    mobile-menu-9050: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    menu-1163: menu-2151
+    main: main
+    position-position-3943: position-breadcrumbs
+    system-messages-1182: system-messages-4807
+    system-content-9336: system-content-8761
+    footer: footer
+    position-position-6950: position-footer
+    copyright-7695: copyright-5527
+    branding-3344: branding-2774
+    branding-6101: branding-5758
+    offcanvas: offcanvas
+    mobile-menu-9050: mobile-menu-5547
+  hap-basic-2col:
+    sidebar: sidebar
+    social-3168: social-9424
+    feed-8885: feed-7084

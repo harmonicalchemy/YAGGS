@@ -2,35 +2,54 @@ settings:
   title: Mainmenu
 ordering:
   home: ''
-  styles: ''
   blog:
+    wat-news: ''
     about: ''
-    watsnews: ''
-    afunnything: ''
+    funny-thing: ''
+  vlog:
+    vlog3: ''
+    vlog2: ''
+    vlog1: ''
+  podcasts: ''
+  styles: ''
 items:
-  home:
-    enabled: true
-    anchor_class: ''
   styles:
     enabled: '1'
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
+    anchor_class: ''
+  podcasts:
+    enabled: true
+    anchor_class: ''
+  vlog:
+    columns:
+      - 100
+    enabled: true
+    anchor_class: ''
+  vlog/vlog1:
+    enabled: true
+    anchor_class: ''
+  vlog/vlog2:
+    enabled: true
+    anchor_class: ''
+  vlog/vlog3:
+    enabled: true
+    anchor_class: ''
   blog:
+    columns:
+      - 100
+    enabled: true
+    anchor_class: ''
+  blog/funny-thing:
     enabled: true
     anchor_class: ''
   blog/about:
     enabled: true
     anchor_class: ''
-  blog/watsnews:
-    type: link
-    title: 'Wat? News?'
-    link: /blog/WatsNews
+  blog/wat-news:
     enabled: true
     anchor_class: ''
-  blog/afunnything:
-    type: link
-    title: 'A Funny Thing Happened...'
-    link: /blog/aFunnyThing
+  home:
     enabled: true
     anchor_class: ''

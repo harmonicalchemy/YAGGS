@@ -1,5 +1,5 @@
 name: vlog
-timestamp: 1522479404
+timestamp: 1522913573
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/2-col-right.png'
@@ -7,7 +7,6 @@ preset:
   timestamp: 1522083177
 positions:
   breadcrumbs: Breadcrumbs
-  sidebar: Sidebar
   footer: Footer
 sections:
   header: Header
@@ -20,26 +19,41 @@ particles:
   logo:
     logo-3323: 'Logo / Image'
   menu:
-    menu-4448: Menu
+    menu-2472: Menu
   position:
-    position-breadcrumbs: Breadcrumbs
-    position-sidebar: Sidebar
-    position-footer: Footer
+    position-position-9625: Breadcrumbs
+    position-position-9237: Footer
   messages:
-    system-messages-2751: 'System Messages'
+    system-messages-4208: 'System Messages'
   content:
-    system-content-3633: 'Page Content'
-  social:
-    social-9424: Social
-  feed:
-    feed-7084: 'Feed Buttons'
+    system-content-3957: 'Page Content'
   copyright:
-    copyright-3968: Copyright
-  spacer:
-    spacer-7570: Spacer
+    copyright-8612: Copyright
   branding:
-    branding-1178: Branding
-    branding-4665: Branding
+    branding-5799: Branding
+    branding-4355: Branding
   mobile-menu:
-    mobile-menu-2449: Mobile-menu
-inherit: {  }
+    mobile-menu-8457: Mobile-menu
+  social:
+    social-7646: Social
+  feed:
+    feed-9163: 'Feed Buttons'
+inherit:
+  default:
+    navigation: navigation
+    main: main
+    footer: footer
+    offcanvas: offcanvas
+    menu-2472: menu-2151
+    position-position-9625: position-breadcrumbs
+    system-messages-4208: system-messages-4807
+    system-content-3957: system-content-8761
+    position-position-9237: position-footer
+    copyright-8612: copyright-5527
+    branding-5799: branding-2774
+    branding-4355: branding-5758
+    mobile-menu-8457: mobile-menu-5547
+  hap-basic-2col:
+    sidebar: sidebar
+    social-7646: social-9424
+    feed-9163: feed-7084

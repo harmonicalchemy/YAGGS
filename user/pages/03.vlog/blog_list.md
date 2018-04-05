@@ -20,7 +20,7 @@ content:
     limit: 5
     order:
         by: folder
-        dir: asc
+        dir: desc
     show_date: true
     pagination: true
     url_taxonomy_filters: true

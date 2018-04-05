@@ -1,7 +1,7 @@
 enabled: '1'
 css:
   class: social
-title: ''
+title: Social
 target: _blank
 display: both
 items: {  }
