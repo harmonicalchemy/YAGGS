@@ -1,6 +1,5 @@
 ---
 title: podcasts
-media_order: Crew-Cut-Kid-Vocal-Recording-Session.jpg
 feed:
     rss: 'true'
     items: '@self.descendants'
@@ -9,7 +8,7 @@ podcast:
     itunes:
         category: Arts
         subcategory: Design
-    description: 'If you host a podcast this section is where you can present it in style on your own website!'
+    description: 'If you host a podcast, use this section to present it in style!'
     link: 'https://www.example.com'
     channelLanguage: en
     copyright: '2017 Example.com'
@@ -23,12 +22,3 @@ taxonomy:
         - podcasts
 ---
 
-![](Crew-Cut-Kid-Vocal-Recording-Session.jpg)
-
->
-Photo Credit: [Jason Rosewell 60014 unsplash.com](https://unsplash.com/photos/ASKeuOZqhYU) **_"Crew Cut Kid Vocal Recording Session"_**
-
-Recording Console:
-
->
-Photo Credit: [Alexey Ruban 103990 unsplash.com](https://unsplash.com/photos/73o_FzZ5x-w)

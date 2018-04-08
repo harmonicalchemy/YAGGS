@@ -1,0 +1,51 @@
+name: podcasts
+timestamp: 1523178542
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1522083177
+positions:
+  breadcrumbs: Breadcrumbs
+  footer: Footer
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-1031: 'Logo / Image'
+  menu:
+    menu-3927: Menu
+  position:
+    position-position-1153: Breadcrumbs
+    position-position-7710: Footer
+  messages:
+    system-messages-1860: 'System Messages'
+  content:
+    system-content-9524: 'Page Content'
+  copyright:
+    copyright-2197: Copyright
+  branding:
+    branding-1978: Branding
+    branding-1782: Branding
+  mobile-menu:
+    mobile-menu-3363: Mobile-menu
+inherit:
+  default:
+    header: header
+    navigation: navigation
+    menu-3927: menu-2151
+    main: main
+    position-position-1153: position-breadcrumbs
+    system-messages-1860: system-messages-4807
+    system-content-9524: system-content-8761
+    footer: footer
+    position-position-7710: position-footer
+    copyright-2197: copyright-5527
+    branding-1978: branding-2774
+    branding-1782: branding-5758
+    offcanvas: offcanvas
+    mobile-menu-3363: mobile-menu-5547
