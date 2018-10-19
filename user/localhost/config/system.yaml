@@ -1,0 +1,9 @@
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## ~/Dev/WWW/000-MWM-Dev/Grav/YAGGS/user/localhost/config/system.yaml
+## Grav Configuration for running on Localhost
+## Created: 2018-010-19 by Alisha Awen
+## Purpose: Initially to turn on debugger only...
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+debugger:
+  enabled: true
+
